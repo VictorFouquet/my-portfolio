@@ -14,7 +14,7 @@
   font-family: 'Source Sans Pro', sans-serif;
   border: solid 1px #5ce8ff;
   border-radius: 3px;
-  position:relative;
+  position:absolute;
   top: 48%;
   color: #d9e1d3;
   animation: appear 1s ease-in-out forwards 6.4s;

@@ -7,6 +7,7 @@
 
 #about-wrapper {
   margin: 60px 15% 60px;
+  padding-top: 60px;
   font-family: "Source Sans Pro", sans-serif;
   color: #d4e1d5;
   display: flex;

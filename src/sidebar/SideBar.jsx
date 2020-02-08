@@ -12,7 +12,7 @@ class SideBar extends React.Component {
         <a href="#main"><i class="fas fa-home"></i></a>
         <a href="#about"><i class="fas fa-user-alt"></i></a>
         <a href="#skills"><i class="fas fa-cog"></i></a>
-        <i class="far fa-eye"></i>
+        <a href="#work"><i class="far fa-eye"></i></a>
         <i class="far fa-envelope"></i>
       </div>
     );

@@ -1,10 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Jumbotron from './jumbotron/Jumbotron';
 import SideBar from './sidebar/SideBar';
-import Skills from './skills/Skills'
-import About from './about/About'
+import Skills from './skills/Skills';
+import About from './about/About';
+import Work from './work/Work';
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
       <Jumbotron />     
       <About />
       <Skills />
+      <Work />
     </div>
   );
 }

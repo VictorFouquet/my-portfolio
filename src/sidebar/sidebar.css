@@ -14,11 +14,14 @@
   height: 50px;
   background: grey;
 }
+a{
+  margin: 20px 0px;
+}
 
 i {
   color: #5ce8ff;
   font-size: 25px;
-  margin: 20px auto;
+  margin: 0px auto;
 }
 
 .graph-logo {
