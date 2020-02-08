@@ -1,0 +1,30 @@
+#skills{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#skills-wrapper{
+    padding: 60px 15%;   
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#skills-title {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #d4e1d5;
+    
+    margin-bottom: 30px
+}
+
+tspan {
+    fill: #d4e1d5;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: auto;
+}
+ polyline{
+    stroke: #ffffff
+ }
