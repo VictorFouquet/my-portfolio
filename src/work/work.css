@@ -14,3 +14,103 @@
   background: #111;
   padding: 20px;
 }
+
+#website-projects {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+#app-projects {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-project-row {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.associate {
+  color: #d4e1d5;
+  font-family: "Source Sans Pro", sans-serif;
+  text-decoration: none;
+}
+
+.associate:hover {
+  color: #5ce8ff;
+  font-family: "Source Sans Pro", sans-serif;
+  text-decoration: none;
+}
+
+.work-title {
+  font-size: 110%;
+  font-weight: bold;
+}
+/********* Superposition simple de texte sur une image *******/
+/* Conteneur principal */
+.overlay-image {
+  position: relative;
+  width: auto;
+}
+/* Image originale */
+.overlay-image .image {
+  display: block;
+  width: auto;
+  height: auto;
+}
+/* Texte original */
+.overlay-image .text {
+  color: #d4e1d5;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+/********* Hover image et texte *******/
+/* Overlay */
+.overlay-image .hover {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+/* Apparition overlay sur passage souris */
+.overlay-image:hover .hover {
+  opacity: 1;
+}
+/********* Hover background et texte uniquement *******/
+.overlay-image .normal {
+  transition: 0.5s ease;
+}
+.overlay-image:hover .normal {
+  opacity: 0;
+}
+.overlay-image .hover {
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.graph-image-work {
+  opacity: 0.5;
+  position: absolute;
+  margin-left: 77%;
+  z-index: -1;
+  transform: scale(1.5) rotate(180deg);
+  margin-top: -25%;
+}
+
+.graph-image-work-2 {
+  opacity: 0.4;
+  position: absolute;
+  margin-left: -25%;
+  z-index: -1;
+  transform: scale(1.5) rotate(90deg);
+  margin-top: -40%;
+}
